@@ -6,8 +6,8 @@
 
 - [x] 视频同步 `注` <u>方法待验证</u>
 - [x] 畸变校正 
-- [x] VIS$\rightarrow$IR 单应矩阵  `注` <u>待验证</u>
-- [ ] 可见光到近红外的透视变换 `注` <u>效果不佳</u>
+- [x] ~~VIS$\rightarrow$IR 单应矩阵  `注` <u>待验证</u>~~
+- [ ] ~~可见光到近红外的透视变换 `注` <u>效果不佳</u>~~
 
 ```bash
 ./Launch_from_Scratch.sh
@@ -65,8 +65,8 @@ $$
 
 ![Alpha_comparison](./README.assets/Alpha_comparison.jpg)
 
-## STEP.4：校正后计算可见光到近红外的单应矩阵
+## STEP.4：~~校正后计算可见光到近红外的单应矩阵~~
 
-## STEP.5：利用单应矩阵计算可见光图像的透视变换
+## STEP.5：~~利用单应矩阵计算可见光图像的透视变换~~
 
 ![xxx](./README.assets/H.png)
