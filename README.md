@@ -69,3 +69,4 @@ $$
 
 ## STEP.5：利用单应矩阵计算可见光图像的透视变换
 
+![xxx](./README.assets/H.png)
