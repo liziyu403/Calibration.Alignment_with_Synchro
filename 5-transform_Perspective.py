@@ -24,6 +24,7 @@ def apply_homography(frame):
     alpha = 0.5 
     blended_image = cv2.addWeighted(aligned_rgb_gray_3ch, alpha, img_ir_resized, 1 - alpha, 0)
 
+    print("点击任意键结束")
     cv2.imshow('Blended Image', blended_image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()

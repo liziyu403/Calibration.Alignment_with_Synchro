@@ -6,8 +6,14 @@
 
 - [x] 视频同步 `注` <u>方法待验证</u>
 - [x] 畸变校正 
-- [x] VIS$\rightarrow$IR单应矩阵  `注` <u>待验证</u>
+- [x] VIS$\rightarrow$IR 单应矩阵  `注` <u>待验证</u>
 - [ ] 可见光到近红外的透视变换 `注` <u>效果不佳</u>
+
+```bash
+./Launch_from_Scratch.sh
+```
+
+> 将 ***VIS.mp4*** 和 ***IR.mp4*** 文件放入 ***./calibration_data/videos*** 目录下后可选择分开运行或者 .sh 文件运行
 
 ------
 

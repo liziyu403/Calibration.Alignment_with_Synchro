@@ -49,6 +49,7 @@ def calculate_homography(images, chessboard_size):
     save_dir = './homographyResults'
     os.makedirs(save_dir, exist_ok=True)
     np.save(os.path.join(save_dir, 'homography.npy'), H)
+    print(f"\n:: 单应矩阵已存入 > > > {os.path.join(save_dir, 'homography.npy')}\n")
 
 if __name__ == '__main__':
     images = [
