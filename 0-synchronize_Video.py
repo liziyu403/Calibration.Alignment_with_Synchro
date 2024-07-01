@@ -126,11 +126,11 @@ if __name__ == "__main__":
     
     if best_offset>0:
         output_path = '.'+video_path1.split('.')[1]+'_syn_tmp.mp4'
-        deleteFrames(video_path1, output_path, best_offset)
+        deleteFrames(video_path1, output_path, abs(best_offset)) # 绝对值仅为了统一格式
         retainFrames(output_path, '.'+video_path1.split('.')[1]+'_syn.mp4', 40)
         retainFrames(video_path2, '.'+video_path2.split('.')[1]+'_syn.mp4', 40)
     else:
         output_path = '.'+video_path2.split('.')[1]+'_syn_tmp.mp4'
-        deleteFrames(video_path2, output_path, best_offset)   
+        deleteFrames(video_path2, output_path, abs(best_offset))   
         retainFrames(output_path, '.'+video_path2.split('.')[1]+'_syn.mp4', 40)
         retainFrames(video_path1, '.'+video_path1.split('.')[1]+'_syn.mp4', 40)
